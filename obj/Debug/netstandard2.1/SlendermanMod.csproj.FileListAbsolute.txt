@@ -1,0 +1,9 @@
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\bin\Debug\netstandard2.1\theunknowncod3r.facelessstalker.deps.json
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\bin\Debug\netstandard2.1\theunknowncod3r.facelessstalker.dll
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.csproj.AssemblyReference.cache
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\MyPluginInfo.cs
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.GeneratedMSBuildEditorConfig.editorconfig
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.AssemblyInfoInputs.cache
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.AssemblyInfo.cs
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.csproj.CoreCompileInputs.cache
+I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\theunknowncod3r.facelessstalker.dll

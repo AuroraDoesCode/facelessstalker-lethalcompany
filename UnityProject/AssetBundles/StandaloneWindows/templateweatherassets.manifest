@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 3807360208
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c290a732fa2556bb6fa5e2dcf3dd0bd7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d4824fa7ca08308d14ba9b58fcdd01e6
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c290a732fa2556bb6fa5e2dcf3dd0bd7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1590615802, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 114
+  Script: {fileID: 770490766, guid: bc123f2deeb00304e8eaffed4b2e3ea6, type: 3}
+- Class: 114
+  Script: {fileID: -1299037747, guid: bc123f2deeb00304e8eaffed4b2e3ea6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Weathers/TemplateWeather/Registry/TemplateWeather.asset
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Weathers/TemplateWeather/Registry/TemplateWeatherDefinition.asset
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Weathers/TemplateWeather/Weather.prefab
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Weathers/TemplateWeather/Registry/TemplateImprovedWeatherEffect.asset
+Dependencies: []

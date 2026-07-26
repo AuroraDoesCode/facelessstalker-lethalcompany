@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 2597230978
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scp096
+      Dependencies: {}
+    Info_1:
+      Name: huskypet
+      Dependencies:
+        Dependency_0: scp096

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1970861812
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6516a1ef8f18a0a9810ec23ecb80ecd2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 56c3b671b86a2bfa07cfd24c7344f774
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6516a1ef8f18a0a9810ec23ecb80ecd2
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: -2111397707, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.BuyableVehiclePreset
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Vehicles/TemplateVehicle/Registry/TemplateVehicleDefinition.asset
+Dependencies: []

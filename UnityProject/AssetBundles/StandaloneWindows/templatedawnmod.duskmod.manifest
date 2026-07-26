@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1057214633
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 737c3407ec1bdb933071984d9f85d4df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 40da7f6933e79bdcfb659e09c96e2640
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 737c3407ec1bdb933071984d9f85d4df
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: -1097792660, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 114
+  Script: {fileID: -303672662, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.AssetBundleData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DungeonData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskAdditionalTilesReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskEnemyReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskItemReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskMapObjectReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskUnlockableReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskVehicleReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.DuskWeatherReference
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.EnemyData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.ItemData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.MapObjectData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.UnlockableData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.VehicleData
+- AssemblyName: com.github.teamxiaolan.dawnlib.dusk
+  ClassName: Dusk.WeatherData
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/TemplateModInformation.asset
+- Assets/LethalCompany/Mods/plugins/TemplateMod/TemplateContentContainer.asset
+Dependencies: []

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 873624326
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 052f96e0ad5a1d7feba25b370cdd1efc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f1a3e3007a0d5a9ec0a4398537760ca
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 052f96e0ad5a1d7feba25b370cdd1efc
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 162818745, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey`1[Dawn.DawnArchetypeInfo]
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/AdditionalTileSets/TemplateTileSet/Registry/TemplateAdditionalTilesDefinition.asset
+Dependencies: []

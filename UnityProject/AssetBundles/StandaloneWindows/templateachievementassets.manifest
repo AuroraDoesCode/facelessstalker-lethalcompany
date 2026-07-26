@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 147081685
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0872241e812dd87ca0b6821cc580d02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 35714fd99a7cf4317d1345527e1d908a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f0872241e812dd87ca0b6821cc580d02
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
+- Class: 114
+  Script: {fileID: -1717119837, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey`1[Dusk.DuskAchievementDefinition]
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Achievements/TemplateAchievement/DescriptionColorGradient.asset
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Achievements/TemplateAchievement/Registry/TemplateInstantAchievement
+  Definition.asset
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Achievements/TemplateAchievement/NameColorGradient.asset
+Dependencies: []

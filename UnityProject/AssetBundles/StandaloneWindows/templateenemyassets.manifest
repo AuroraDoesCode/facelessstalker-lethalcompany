@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2703245915
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3f1f5194beb6051532dbdeece11f1ce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bb49d40a07e92e361af858ff0483d57e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a3f1f5194beb6051532dbdeece11f1ce
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: -1352062519, guid: 41d6645f64e86c743812eb594070972f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: com.github.teamxiaolan.dawnlib
+  ClassName: Dawn.NamespacedKey
+Assets:
+- Assets/LethalCompany/Mods/plugins/TemplateMod/Content/Enemies/TemplateEnemy/Registry/TempalteEnemyDefinition.asset
+Dependencies: []

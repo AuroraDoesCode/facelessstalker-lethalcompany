@@ -1,11 +1,7 @@
 ManifestFileVersion: 0
-CRC: 2597230978
+CRC: 4000828837
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: scp096
+      Name: slendermanbundle
       Dependencies: {}
-    Info_1:
-      Name: huskypet
-      Dependencies:
-        Dependency_0: scp096

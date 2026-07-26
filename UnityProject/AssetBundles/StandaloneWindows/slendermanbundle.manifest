@@ -1,0 +1,118 @@
+ManifestFileVersion: 0
+CRC: 3098362076
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8456dd07182fb09ad3bf9c1aa24abc08
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7fe67aa65bdbe40fb1a0841ad43a82ee
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8456dd07182fb09ad3bf9c1aa24abc08
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c36d0a92cbb1f26a39169ef0eae393a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6d7127b8f98ca8ec9896b384a71d39a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e80ae96b3eb9177eea5c8f9dadbcda1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: -236682461, guid: a9c65369f29e5e146bd98c66c9b8cf86, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: AISearchRoutine
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemyBehaviourState
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemySize
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemyWaterType
+- AssemblyName: Assembly-CSharp
+  ClassName: NavSizeLimit
+Assets:
+- Assets/slender/items/page/models/pageModel.prefab
+- Assets/slender/items/page3Item.asset
+- Assets/slender/slendermanenemy/SlendermanEnemyAnimator.controller
+- Assets/slender/items/page1Item.asset
+- Assets/slender/items/page6Item.asset
+- Assets/slender/items/page8Item.asset
+- Assets/slender/items/page7Item.asset
+- Assets/slender/items/page/Page3.prefab
+- Assets/slender/items/page/models/page.mat
+- Assets/slender/items/page4Item.asset
+- Assets/slender/items/page/models/page_0.mat
+- Assets/slender/items/page/Page7.prefab
+- Assets/slender/slendermanenemy/SlendermanEnemy.asset
+- Assets/slender/slendermanenemy/bestiary/SlendermanEnemyTN.asset
+- Assets/slender/slendermanenemy/SlendermanEnemyObj.prefab
+- Assets/slender/items/page/Page6.prefab
+- Assets/slender/items/page/Page5.prefab
+- Assets/slender/items/page/materials/pageIcon.png
+- Assets/slender/items/page2Item.asset
+- Assets/slender/items/page/Page.prefab
+- Assets/slender/items/page/models/pageAssetBase.prefab
+- Assets/slender/items/page5Item.asset
+- Assets/slender/items/page/Page4.prefab
+- Assets/slender/items/page/Page1.prefab
+- Assets/slender/items/page/Page2.prefab
+- Assets/slender/items/page/Page8.prefab
+- Assets/slender/networkhandler/SlendermanNetworkHandler.prefab
+- Assets/slender/items/page/models/PageBase.asset
+- Assets/slender/slendermanenemy/bestiary/SlendermanEnemySpin.avi
+- Assets/slender/items/page/models/PageBase_0.asset
+- Assets/slender/items/page/materials/pageIcon.asset
+Dependencies: []

@@ -7,3 +7,13 @@ I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Release\netstandard2.1\Sl
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\bin\Release\netstandard2.1\SlendermanMod.deps.json
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\bin\Release\netstandard2.1\SlendermanMod.dll
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Release\netstandard2.1\SlendermanMod.dll
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\bin\Release\netstandard2.1\SlendermanMod.deps.json
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\bin\Release\netstandard2.1\SlendermanMod.dll
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.csproj.AssemblyReference.cache
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\MyPluginInfo.cs
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.AssemblyInfoInputs.cache
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.AssemblyInfo.cs
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.csproj.CoreCompileInputs.cache
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.sourcelink.json
+C:\Users\mrfaw\Documents\GitHub\facelessstalker-lethalcompany\obj\Release\netstandard2.1\SlendermanMod.dll

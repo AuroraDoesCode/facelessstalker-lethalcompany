@@ -36,7 +36,7 @@
           "build/BepInEx.PluginInfoProps.props": {}
         }
       },
-      "Evaisa.LethalLib/1.1.1": {
+      "Evaisa.LethalLib/1.2.0": {
         "type": "package",
         "dependencies": {
           "BepInEx.Core": "5.4.21"
@@ -69,11 +69,11 @@
           }
         }
       },
-      "LethalCompany.GameLibs.Steam/73.0.0-ngd.0": {
+      "LethalCompany.GameLibs.Steam/81.0.5-ngd.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.JSON": "13.0.3",
-          "UnityEngine.Modules": "2022.3.9"
+          "UnityEngine.Modules": "2022.3.62"
         },
         "compile": {
           "ref/netstandard2.1/AmazingAssets.TerrainToMesh.dll": {},
@@ -81,6 +81,9 @@
           "ref/netstandard2.1/Assembly-CSharp.dll": {},
           "ref/netstandard2.1/ClientNetworkTransform.dll": {},
           "ref/netstandard2.1/DissonanceVoip.dll": {},
+          "ref/netstandard2.1/DunGen.Integration.ASPP.dll": {},
+          "ref/netstandard2.1/DunGen.Integration.UnityNav.dll": {},
+          "ref/netstandard2.1/DunGen.dll": {},
           "ref/netstandard2.1/EasyTextEffects.dll": {},
           "ref/netstandard2.1/Facepunch Transport for Netcode for GameObjects.dll": {},
           "ref/netstandard2.1/Facepunch.Steamworks.Win64.dll": {},
@@ -137,9 +140,19 @@
           "ref/netstandard2.1/Unity.TextMeshPro.dll": {},
           "ref/netstandard2.1/Unity.Timeline.dll": {},
           "ref/netstandard2.1/Unity.VisualEffectGraph.Runtime.dll": {},
+          "ref/netstandard2.1/Unity.XR.CoreUtils.dll": {},
+          "ref/netstandard2.1/Unity.XR.Management.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.Features.ConformanceAutomation.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.Features.MetaQuestSupport.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.Features.MockRuntime.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.Features.OculusQuestSupport.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.Features.RuntimeDebugger.dll": {},
+          "ref/netstandard2.1/Unity.XR.OpenXR.dll": {},
           "ref/netstandard2.1/UnityEngine.ARModule.dll": {},
           "ref/netstandard2.1/UnityEngine.NVIDIAModule.dll": {},
+          "ref/netstandard2.1/UnityEngine.SpatialTracking.dll": {},
           "ref/netstandard2.1/UnityEngine.UI.dll": {},
+          "ref/netstandard2.1/UnityEngine.XR.LegacyInputHelpers.dll": {},
           "ref/netstandard2.1/com.olegknyazev.softmask.dll": {}
         }
       },
@@ -651,7 +664,7 @@
           }
         }
       },
-      "UnityEngine.Modules/2022.3.9": {
+      "UnityEngine.Modules/2022.3.62": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/UnityEngine.AIModule.dll": {},
@@ -783,15 +796,15 @@
         "build/BepInEx.PluginInfoProps.props"
       ]
     },
-    "Evaisa.LethalLib/1.1.1": {
-      "sha512": "ZHy0gSo79ImSE0SXOTG6Qy0YrSzzBHk93VajkQmH4cgM5um0LL0CAnVa4pAV4bK9bXTCgjJrsAg4hCLWfiYe4Q==",
+    "Evaisa.LethalLib/1.2.0": {
+      "sha512": "WxrBEToRr6ji57d9tH/ac8LVwkmhoTrk45kRCfnbKyWaH3gzTekuCUCdXg5fpkieILWyS7lJGnnr0uD7tlIKMA==",
       "type": "package",
-      "path": "evaisa.lethallib/1.1.1",
+      "path": "evaisa.lethallib/1.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "evaisa.lethallib.1.1.1.nupkg.sha512",
+        "evaisa.lethallib.1.2.0.nupkg.sha512",
         "evaisa.lethallib.nuspec",
         "lib/netstandard2.1/LethalLib.dll",
         "lib/netstandard2.1/LethalLib.xml"
@@ -816,20 +829,23 @@
         "logo_mini.png"
       ]
     },
-    "LethalCompany.GameLibs.Steam/73.0.0-ngd.0": {
-      "sha512": "iaHCHoJTFiTnAyAYIrEbjCJOOuhcJ42+KJnEbmCmf4UdkhjSwwio2bcdPCbchodB9kEp+3v3ATgkBwYn56/Gdw==",
+    "LethalCompany.GameLibs.Steam/81.0.5-ngd.0": {
+      "sha512": "q1+j5z4lP0TKO16uZ2NclNr9/mb3BUgl6mUO7zbPwbyEHIPJ4m6805rxP0w8mxe4NWNcQRoBkWrIpiNrwak8Hg==",
       "type": "package",
-      "path": "lethalcompany.gamelibs.steam/73.0.0-ngd.0",
+      "path": "lethalcompany.gamelibs.steam/81.0.5-ngd.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lethalcompany.gamelibs.steam.73.0.0-ngd.0.nupkg.sha512",
+        "lethalcompany.gamelibs.steam.81.0.5-ngd.0.nupkg.sha512",
         "lethalcompany.gamelibs.steam.nuspec",
         "ref/netstandard2.1/AmazingAssets.TerrainToMesh.dll",
         "ref/netstandard2.1/Assembly-CSharp-firstpass.dll",
         "ref/netstandard2.1/Assembly-CSharp.dll",
         "ref/netstandard2.1/ClientNetworkTransform.dll",
         "ref/netstandard2.1/DissonanceVoip.dll",
+        "ref/netstandard2.1/DunGen.Integration.ASPP.dll",
+        "ref/netstandard2.1/DunGen.Integration.UnityNav.dll",
+        "ref/netstandard2.1/DunGen.dll",
         "ref/netstandard2.1/EasyTextEffects.dll",
         "ref/netstandard2.1/Facepunch Transport for Netcode for GameObjects.dll",
         "ref/netstandard2.1/Facepunch.Steamworks.Win64.dll",
@@ -886,9 +902,19 @@
         "ref/netstandard2.1/Unity.TextMeshPro.dll",
         "ref/netstandard2.1/Unity.Timeline.dll",
         "ref/netstandard2.1/Unity.VisualEffectGraph.Runtime.dll",
+        "ref/netstandard2.1/Unity.XR.CoreUtils.dll",
+        "ref/netstandard2.1/Unity.XR.Management.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "ref/netstandard2.1/Unity.XR.OpenXR.dll",
         "ref/netstandard2.1/UnityEngine.ARModule.dll",
         "ref/netstandard2.1/UnityEngine.NVIDIAModule.dll",
+        "ref/netstandard2.1/UnityEngine.SpatialTracking.dll",
         "ref/netstandard2.1/UnityEngine.UI.dll",
+        "ref/netstandard2.1/UnityEngine.XR.LegacyInputHelpers.dll",
         "ref/netstandard2.1/com.olegknyazev.softmask.dll"
       ]
     },
@@ -2689,10 +2715,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "UnityEngine.Modules/2022.3.9": {
-      "sha512": "sSxqZjd05U0NWlX+eappdlsEuXFvDRHkUaClDVTocGRzCmIwNvgGJIPh22lGklIpNZ3cJZneYJkIUnEIazR8VA==",
+    "UnityEngine.Modules/2022.3.62": {
+      "sha512": "zpu5dELUCFt7Rvvzp50iTrfVusJg+2gmlcaytGEoHYuIP+AOv57X272czjp+sA8N1onPo/IiHFnOEFtT9rLJBA==",
       "type": "package",
-      "path": "unityengine.modules/2022.3.9",
+      "path": "unityengine.modules/2022.3.62",
       "files": [
         ".nupkg.metadata",
         "lib/net35/UnityEngine.AIModule.dll",
@@ -2893,7 +2919,7 @@
         "lib/netstandard2.0/UnityEngine.WindModule.dll",
         "lib/netstandard2.0/UnityEngine.XRModule.dll",
         "lib/netstandard2.0/UnityEngine.dll",
-        "unityengine.modules.2022.3.9.nupkg.sha512",
+        "unityengine.modules.2022.3.62.nupkg.sha512",
         "unityengine.modules.nuspec"
       ]
     }
@@ -2903,28 +2929,26 @@
       "BepInEx.Analyzers >= 1.*",
       "BepInEx.Core >= 5.*",
       "BepInEx.PluginInfoProps >= 2.*",
-      "Evaisa.LethalLib >= 1.1.1",
+      "Evaisa.LethalLib >= 1.2.0",
       "LethalCompany.GameLibs.Steam >= *-*",
-      "UnityEngine.Modules >= 2022.3.9"
+      "UnityEngine.Modules >= 2022.3.62"
     ]
   },
   "packageFolders": {
     "C:\\Users\\mrfaw\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj",
+      "projectUniqueName": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
       "projectName": "SlendermanMod",
-      "projectPath": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj",
+      "projectPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
       "packagesPath": "C:\\Users\\mrfaw\\.nuget\\packages\\",
-      "outputPath": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\obj\\",
+      "outputPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\mrfaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2936,7 +2960,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.bepinex.dev/v3/index.json": {},
@@ -2957,7 +2980,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "netstandard2.1": {
@@ -2980,7 +3004,7 @@
           },
           "Evaisa.LethalLib": {
             "target": "Package",
-            "version": "[1.1.1, )"
+            "version": "[1.2.0, )"
           },
           "LethalCompany.GameLibs.Steam": {
             "suppressParent": "All",
@@ -2991,7 +3015,7 @@
             "include": "Compile",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2022.3.9, )"
+            "version": "[2022.3.62, )"
           }
         },
         "imports": [
@@ -3010,7 +3034,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

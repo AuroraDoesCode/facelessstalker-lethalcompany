@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlendermanMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da3dbcbfa0fb358520015717da9fddb9f66d37f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlendermanMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlendermanMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

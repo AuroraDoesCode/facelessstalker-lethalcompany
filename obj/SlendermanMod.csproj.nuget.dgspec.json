@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj": {}
+    "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj": {}
   },
   "projects": {
-    "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj": {
+    "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj",
+        "projectUniqueName": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
         "projectName": "SlendermanMod",
-        "projectPath": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\SlendermanMod.csproj",
+        "projectPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
         "packagesPath": "C:\\Users\\mrfaw\\.nuget\\packages\\",
-        "outputPath": "I:\\Game Code Stuff\\FacelessStalker\\FacelessStalker\\obj\\",
+        "outputPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\mrfaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.bepinex.dev/v3/index.json": {},
@@ -48,7 +46,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "netstandard2.1": {
@@ -71,7 +70,7 @@
             },
             "Evaisa.LethalLib": {
               "target": "Package",
-              "version": "[1.1.1, )"
+              "version": "[1.2.0, )"
             },
             "LethalCompany.GameLibs.Steam": {
               "suppressParent": "All",
@@ -82,7 +81,7 @@
               "include": "Compile",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2022.3.9, )"
+              "version": "[2022.3.62, )"
             }
           },
           "imports": [
@@ -101,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

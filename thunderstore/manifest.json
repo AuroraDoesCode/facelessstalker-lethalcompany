@@ -1,0 +1,10 @@
+﻿{
+	"name": "FacelessStalker",
+	"version_number": "1.2.1",
+	"website_url": "https://github.com/notsparble/facelessstalker",
+	"description": "Adds Slenderman as a unique enemy to Lethal Company, as well as haunted pages to collect! [v73 Update]",
+	"dependencies": [
+	"BepInEx-BepInExPack-5.4.2100",
+	"Evaisa-LethalLib-1.1.1"
+	]
+}

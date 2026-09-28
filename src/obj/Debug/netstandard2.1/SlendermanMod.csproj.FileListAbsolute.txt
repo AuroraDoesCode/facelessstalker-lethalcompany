@@ -7,3 +7,13 @@ I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\Slen
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.AssemblyInfo.cs
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\SlendermanMod.csproj.CoreCompileInputs.cache
 I:\Game Code Stuff\FacelessStalker\FacelessStalker\obj\Debug\netstandard2.1\theunknowncod3r.facelessstalker.dll
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\bin\Debug\netstandard2.1\SlendermanMod.deps.json
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\bin\Debug\netstandard2.1\SlendermanMod.dll
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.csproj.AssemblyReference.cache
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\MyPluginInfo.cs
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.AssemblyInfoInputs.cache
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.AssemblyInfo.cs
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.csproj.CoreCompileInputs.cache
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.sourcelink.json
+C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\obj\Debug\netstandard2.1\SlendermanMod.dll

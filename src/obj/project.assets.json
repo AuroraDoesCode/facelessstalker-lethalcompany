@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    ".NETStandard,Version=v2.1": {
+    "netstandard2.1": {
       "BepInEx.Analyzers/1.0.8": {
         "type": "package"
       },
@@ -2925,7 +2925,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
+    "netstandard2.1": [
       "BepInEx.Analyzers >= 1.*",
       "BepInEx.Core >= 5.*",
       "BepInEx.PluginInfoProps >= 2.*",
@@ -2935,23 +2935,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mrfaw\\.nuget\\packages\\": {},
+    "C:\\Users\\Aurora\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.2.2",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
+      "projectUniqueName": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
       "projectName": "SlendermanMod",
-      "projectPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\SlendermanMod.csproj",
-      "packagesPath": "C:\\Users\\mrfaw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrfaw\\Documents\\GitHub\\facelessstalker-lethalcompany\\obj\\",
+      "projectPath": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
+      "packagesPath": "C:\\Users\\Aurora\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mrfaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aurora\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2960,13 +2960,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.bepinex.dev/v3/index.json": {},
         "https://nuget.bepinex.dev/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
+          "framework": "netstandard2.1",
           "targetAlias": "netstandard2.1",
           "projectReferences": {}
         }
@@ -2981,10 +2982,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "netstandard2.1": {
+        "framework": "netstandard2.1",
         "targetAlias": "netstandard2.1",
         "dependencies": {
           "BepInEx.Analyzers": {
@@ -3034,7 +3036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

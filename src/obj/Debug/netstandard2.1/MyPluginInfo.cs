@@ -4,6 +4,6 @@ namespace SlendermanMod
     {
         public const string PLUGIN_GUID = "SlendermanMod";
         public const string PLUGIN_NAME = "SlendermanMod";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.2.2";
     }
 }

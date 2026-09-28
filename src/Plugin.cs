@@ -24,7 +24,7 @@ namespace SlendermanMod
     {
         const string GUID = "sparble.slendermanmod";
         const string NAME = "SlendermanMod";
-        const string VERSION = "1.2.0";
+        const string VERSION = "1.2.2";
         public static Harmony _harmony;
         public static EnemyType SlendermanEnemy;
         //public static Item pageItem;
@@ -93,14 +93,14 @@ namespace SlendermanMod
             string configMoonRarity = SlendermanConfig.configPageMoons.Value;
             (Dictionary<LevelTypes, int> spawnRateByLevelType, Dictionary<string, int> spawnRateByCustomLevelType) = ConfigParsing(configMoonRarity);
 
-            Item pageItem = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/pageItem.asset");
-            SpawnSlendermanEnemyItem pageScript = pageItem.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>(); // Add custom interactions to pageItem
-            pageScript.grabbable = true;
-            pageScript.grabbableToEnemies = true;
-            pageScript.itemProperties = pageItem;
-            Utilities.FixMixerGroups(pageItem.spawnPrefab); //Fixes empty audio -- mixer lethallib.modules.
-            NetworkPrefabs.RegisterNetworkPrefab(pageItem.spawnPrefab);
-            Items.RegisterScrap(pageItem, spawnRateByLevelType, spawnRateByCustomLevelType);
+           // Item pageItem = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/pageItem.asset");
+           // SpawnSlendermanEnemyItem pageScript = pageItem.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>(); // Add custom interactions to pageItem
+           // pageScript.grabbable = true;
+           // pageScript.grabbableToEnemies = true;
+           // pageScript.itemProperties = pageItem;
+           // Utilities.FixMixerGroups(pageItem.spawnPrefab); //Fixes empty audio -- mixer lethallib.modules.
+           // NetworkPrefabs.RegisterNetworkPrefab(pageItem.spawnPrefab);
+            //Items.RegisterScrap(pageItem, spawnRateByLevelType, spawnRateByCustomLevelType);
 
             Item page1Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page1Item.asset");
             SpawnSlendermanEnemyItem page1Script = page1Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>(); // Add custom interactions to pageItem

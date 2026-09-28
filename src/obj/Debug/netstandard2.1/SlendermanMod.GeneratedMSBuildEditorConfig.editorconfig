@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = SlendermanMod
-build_property.ProjectDir = I:\Game Code Stuff\FacelessStalker\FacelessStalker\
+build_property.ProjectDir = C:\Users\Aurora\Documents\GitHub\facelessstalker-lethalcompany\src\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

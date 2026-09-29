@@ -20,11 +20,11 @@ namespace SlendermanMod.Behaviours
         {
             base.EquipItem();
 
-            /*if (isSpawned)
+            if (isSpawned)
             {
                 UnityEngine.Debug.Log("Slenderman already spawned in this round.");
                 return;
-            }*/
+            }
 
             if (playerHeldBy != null)
             {
@@ -40,6 +40,7 @@ namespace SlendermanMod.Behaviours
                     else
                     {
                         UnityEngine.Debug.Log("Slenderman not spawning as there's already one haunting the players or the page has already been used!");
+                        return;
                     }
                 }
                 else
@@ -53,12 +54,6 @@ namespace SlendermanMod.Behaviours
                 UnityEngine.Debug.LogWarning("Player holding item == null!");
                 return;
             }
-
-            /*if (!pageHasBeenUsed)
-            {
-                pageHasBeenUsed = true;
-                return;
-            }*/
         }
 
         [ServerRpc(RequireOwnership = false)]
@@ -93,8 +88,8 @@ namespace SlendermanMod.Behaviours
 
         public void SpawnSlenderman()
         {
-            Vector3 spawnPosition = GameNetworkManager.Instance.localPlayerController.transform.position + Vector3.Scale(new Vector3(-5, 5, -5), GameNetworkManager.Instance.localPlayerController.transform.forward);
-            SpawnSlendermanServerRpc(spawnPosition); // serverRpcParams will be filled in automatically
+            Vector3 spawnPos = RoundManager.Instance.GetRandomNavMeshPositionInRadius(GameNetworkManager.Instance.localPlayerController.transform.position, 5f);
+            SpawnSlendermanServerRpc(spawnPos); // serverRpcParams will be filled in automatically
         }
     }
 }

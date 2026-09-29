@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\behaviours\\spawnslendermanenemyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:behaviours\\spawnslendermanenemyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\slendermanenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:slendermanenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\slendermanmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:slendermanmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\slendermanmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:slendermanmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\syncedinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:syncedinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\slendermanenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:slendermanenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\slendermannetworkhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:slendermannetworkhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\syncedinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:syncedinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\behaviours\\spawnslendermanenemyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|solutionrelative:behaviours\\spawnslendermanenemyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FFAE6BE-00D0-4EB5-AE82-208F8500A13F}|SlendermanMod.csproj|c:\\users\\aurora\\documents\\github\\facelessstalker-lethalcompany\\src\\patches\\networkobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "SlendermanMod",
+              "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
+              "RelativeDocumentMoniker": "SlendermanMod.csproj",
+              "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
+              "RelativeToolTip": "SlendermanMod.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-28T10:44:54.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SyncedInstance.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SyncedInstance.cs",
               "RelativeDocumentMoniker": "SyncedInstance.cs",
@@ -63,45 +79,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "SpawnSlendermanEnemyItem.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Behaviours\\SpawnSlendermanEnemyItem.cs",
               "RelativeDocumentMoniker": "Behaviours\\SpawnSlendermanEnemyItem.cs",
-              "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Behaviours\\SpawnSlendermanEnemyItem.cs",
-              "RelativeToolTip": "Behaviours\\SpawnSlendermanEnemyItem.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAcwGMAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Behaviours\\SpawnSlendermanEnemyItem.cs*",
+              "RelativeToolTip": "Behaviours\\SpawnSlendermanEnemyItem.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T16:08:02.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NetworkObjectManager.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Patches\\NetworkObjectManager.cs",
               "RelativeDocumentMoniker": "Patches\\NetworkObjectManager.cs",
               "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Patches\\NetworkObjectManager.cs",
               "RelativeToolTip": "Patches\\NetworkObjectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T16:07:58.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SlendermanEnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanEnemyAI.cs",
               "RelativeDocumentMoniker": "SlendermanEnemyAI.cs",
               "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanEnemyAI.cs",
               "RelativeToolTip": "SlendermanEnemyAI.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAUwHEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T16:07:38.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SlendermanNetworkHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanNetworkHandler.cs",
               "RelativeDocumentMoniker": "SlendermanNetworkHandler.cs",
@@ -109,30 +125,31 @@
               "RelativeToolTip": "SlendermanNetworkHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T16:07:37.828Z"
+              "WhenOpened": "2026-07-26T16:07:37.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
               "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\Plugin.cs*",
               "RelativeToolTip": "Plugin.cs*",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwBoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T16:06:36.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SlendermanMod.csproj",
               "DocumentMoniker": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
               "RelativeDocumentMoniker": "SlendermanMod.csproj",
-              "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj",
-              "RelativeToolTip": "SlendermanMod.csproj",
-              "ViewState": "AgIAACoAAAAAAAAAAAAawDoAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Aurora\\Documents\\GitHub\\facelessstalker-lethalcompany\\src\\SlendermanMod.csproj*",
+              "RelativeToolTip": "SlendermanMod.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-07-26T16:06:36.113Z",
               "EditorCaption": ""

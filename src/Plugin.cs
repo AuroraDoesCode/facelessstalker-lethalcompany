@@ -24,7 +24,7 @@ namespace SlendermanMod
     {
         const string GUID = "sparble.slendermanmod";
         const string NAME = "SlendermanMod";
-        const string VERSION = "1.2.2";
+        const string VERSION = "1.2.3";
         public static Harmony _harmony;
         public static EnemyType SlendermanEnemy;
         //public static Item pageItem;

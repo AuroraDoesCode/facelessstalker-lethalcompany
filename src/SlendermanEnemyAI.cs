@@ -172,6 +172,7 @@ namespace SlendermanMod
             SetCreatureVoiceVolumeClientRpc(slendermanVoiceVolume);
             AnimStalkingBaseClientRpc(); //so he uses one animation
             TeleportAway();
+            GetAINodes();
             // If config enabled, play spawning sound
             if (spawningSoundEnabled)
             {
@@ -299,7 +300,7 @@ namespace SlendermanMod
                 Vector3 randomNavMeshPositionInRadiusSpherical = RoundManager.Instance.GetRandomNavMeshPositionInRadiusSpherical(newPosition, 1f, navHit);
                 agent.Warp(randomNavMeshPositionInRadiusSpherical);
                 moveTowardsDestination = false;
-                destination = base.transform.position;
+                destination = transform.position;
                 agent.SetDestination(destination);
                 agent.speed = 0f;
                 //UnityEngine.Debug.Log("Slenderman: STARTING HAUNT STARE");
@@ -676,6 +677,7 @@ namespace SlendermanMod
         [ClientRpc]
         private void PlaySfxClientRpc(string sfxClipName, bool toggleSpatialBlend = true)
         {
+            if (SoundManager.Instance.isAudioPlaying) return;
             /*if (GameNetworkManager.Instance.localPlayerController == hauntingPlayer)
             {
                 creatureVoice.spatialBlend = 0;

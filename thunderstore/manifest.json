@@ -1,6 +1,6 @@
 ﻿{
 	"name": "FacelessStalker_Fork",
-	"version_number": "1.2.3",
+	"version_number": "1.2.5",
 	"website_url": "https://github.com/AuroraDoesCode/facelessstalker-lethalcompany",
 	"description": "Adds Slenderman as a unique enemy to Lethal Company, as well as haunted pages to collect! [v81+ Update]",
 	"dependencies": [

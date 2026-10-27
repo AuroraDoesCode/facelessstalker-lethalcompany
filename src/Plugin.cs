@@ -24,7 +24,7 @@ namespace SlendermanMod
     {
         const string GUID = "sparble.slendermanmod";
         const string NAME = "SlendermanMod";
-        const string VERSION = "1.2.3";
+        const string VERSION = "1.2.5";
         public static Harmony _harmony;
         public static EnemyType SlendermanEnemy;
         //public static Item pageItem;
@@ -87,8 +87,8 @@ namespace SlendermanMod
             // Network Prefabs need to be registered first. See https://docs-multiplayer.unity3d.com/netcode/current/basics/object-spawning/
             //DawnLib.RegisterNetworkPrefab(SlendermanEnemy.enemyPrefab);
             //DawnLib.DefineEnemy(SlendermanModKeys.Slenderman, SlendermanEnemy, builder => { builder.DefineInside(builder => { builder.SetWeights(builder => { builder.SetGlobalWeight(SlendermanConfig.configSlendermanSpawnChances.Value); }); }); });
+            NetworkPrefabs.RegisterNetworkPrefab(SlendermanEnemy.enemyPrefab);
             RegisterEnemy(SlendermanEnemy, SlendermanConfig.Instance.configSlendermanSpawnChances.Value, LevelTypes.All, SpawnType.Default, slendermanTerminalNode);
-
             // Loading the page items
             string configMoonRarity = SlendermanConfig.configPageMoons.Value;
             (Dictionary<LevelTypes, int> spawnRateByLevelType, Dictionary<string, int> spawnRateByCustomLevelType) = ConfigParsing(configMoonRarity);
@@ -102,77 +102,14 @@ namespace SlendermanMod
            // NetworkPrefabs.RegisterNetworkPrefab(pageItem.spawnPrefab);
             //Items.RegisterScrap(pageItem, spawnRateByLevelType, spawnRateByCustomLevelType);
 
-            Item page1Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page1Item.asset");
-            SpawnSlendermanEnemyItem page1Script = page1Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>(); // Add custom interactions to pageItem
-            page1Script.grabbable = true;
-            page1Script.grabbableToEnemies = true;
-            page1Script.itemProperties = page1Item;
-            Utilities.FixMixerGroups(page1Item.spawnPrefab); //Fixes empty audio -- mixer lethallib.modules.
-            NetworkPrefabs.RegisterNetworkPrefab(page1Item.spawnPrefab);
-            Items.RegisterScrap(page1Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page2Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page2Item.asset");
-            SpawnSlendermanEnemyItem page2Script = page2Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page2Script.grabbable = true;
-            page2Script.grabbableToEnemies = true;
-            page2Script.itemProperties = page2Item;
-            Utilities.FixMixerGroups(page2Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page2Item.spawnPrefab);
-            Items.RegisterScrap(page2Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page3Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page3Item.asset");
-            SpawnSlendermanEnemyItem page3Script = page3Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page3Script.grabbable = true;
-            page3Script.grabbableToEnemies = true;
-            page3Script.itemProperties = page3Item;
-            Utilities.FixMixerGroups(page3Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page3Item.spawnPrefab);
-            Items.RegisterScrap(page3Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page4Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page4Item.asset");
-            SpawnSlendermanEnemyItem page4Script = page4Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page4Script.grabbable = true;
-            page4Script.grabbableToEnemies = true;
-            page4Script.itemProperties = page4Item;
-            Utilities.FixMixerGroups(page4Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page4Item.spawnPrefab);
-            Items.RegisterScrap(page4Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page5Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page5Item.asset");
-            SpawnSlendermanEnemyItem page5Script = page5Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page5Script.grabbable = true;
-            page5Script.grabbableToEnemies = true;
-            page5Script.itemProperties = page5Item;
-            Utilities.FixMixerGroups(page5Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page5Item.spawnPrefab);
-            Items.RegisterScrap(page5Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page6Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page6Item.asset");
-            SpawnSlendermanEnemyItem page6Script = page6Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page6Script.grabbable = true;
-            page6Script.grabbableToEnemies = true;
-            page6Script.itemProperties = page6Item;
-            Utilities.FixMixerGroups(page6Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page6Item.spawnPrefab);
-            Items.RegisterScrap(page6Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page7Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page7Item.asset");
-            SpawnSlendermanEnemyItem page7Script = page7Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page7Script.grabbable = true;
-            page7Script.grabbableToEnemies = true;
-            page7Script.itemProperties = page7Item;
-            Utilities.FixMixerGroups(page7Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page7Item.spawnPrefab);
-            Items.RegisterScrap(page7Item, spawnRateByLevelType, spawnRateByCustomLevelType);
-
-            Item page8Item = Assets.SlendermanAssets.LoadAsset<Item>("Assets/Items/page8Item.asset");
-            SpawnSlendermanEnemyItem page8Script = page8Item.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>();
-            page8Script.grabbable = true;
-            page8Script.grabbableToEnemies = true;
-            page8Script.itemProperties = page8Item;
-            Utilities.FixMixerGroups(page8Item.spawnPrefab);
-            NetworkPrefabs.RegisterNetworkPrefab(page8Item.spawnPrefab);
-            Items.RegisterScrap(page8Item, spawnRateByLevelType, spawnRateByCustomLevelType);
+            Item pageItem = Assets.SlendermanAssets.LoadAsset<Item>("Assets/slender/Items/pageItem.asset");
+            SpawnSlendermanEnemyItem pageScript = pageItem.spawnPrefab.AddComponent<SpawnSlendermanEnemyItem>(); // Add custom interactions to pageItem
+            pageScript.grabbable = true;
+            pageScript.grabbableToEnemies = true;
+            pageScript.itemProperties = pageItem;
+            Utilities.FixMixerGroups(pageItem.spawnPrefab); //Fixes empty audio -- mixer lethallib.modules.
+            NetworkPrefabs.RegisterNetworkPrefab(pageItem.spawnPrefab);
+            Items.RegisterScrap(pageItem, spawnRateByLevelType, spawnRateByCustomLevelType);
 
             slendermanHauntCooldown = SlendermanConfig.Instance.configSlendermanHauntCooldown.Value;
             slendermanHauntIntervalLength = SlendermanConfig.Instance.configSlendermanAbsentIntervalRate.Value;
@@ -264,7 +201,7 @@ namespace SlendermanMod
                 "PageItem.Values",
                 "Page Spawning",
                 "All@2,AssuranceLevel@1,VowLevel@10,MarchLevel@10,DineLevel@7,RendLevel@8,TitanLevel@5,AdamanceLevel@10,ArtificeLevel@7,Gloom@10,Auralis@10,Junic@9,Acidir@10,Cosmocos@10,Polarus@1,Desolation@10,Embrion@10,Affliction@10,Eve@10,Gratar@7,Infernis@6,Harloth@7,Asteroid@4,Celest@10,Siabudabu@9,Ganimedes@7,Kast@7,Secret Labs@11,Solace@10,Synthesis@10,PsychSanctum@10,Sanguine@10,Harloth@4",
-                "The LevelTypes/Moons that the page items can spawn on. \nUses the format 'Moon@Rarity,Moon2@Rarity2,' etc, also supports custom moons. \nThe spawn rarity counts separately for every single one of the eight page items."
+                "The LevelTypes/Moons that the page items can spawn on. \nUses the format 'Moon@Rarity,Moon2@Rarity2,' etc, also supports custom moons. \nThe spawn rarity counts for every single one of the eight pages."
             );
             configSlendermanSpawnChances = cfg.Bind(
                     "Slenderman",
@@ -345,7 +282,7 @@ namespace SlendermanMod
             if (!IsClient) return;
 
             using FastBufferWriter stream = new(IntSize, Allocator.Temp);
-            MessageManager.SendNamedMessage("ModName_OnRequestConfigSync", 0uL, stream);
+            MessageManager.SendNamedMessage("SlenderMod_OnRequestConfigSync", 0uL, stream);
         }
 
         public static void OnRequestSync(ulong clientId, FastBufferReader _)
@@ -364,7 +301,7 @@ namespace SlendermanMod
                 stream.WriteValueSafe(in value, default);
                 stream.WriteBytesSafe(array);
 
-                MessageManager.SendNamedMessage("ModName_OnReceiveConfigSync", clientId, stream);
+                MessageManager.SendNamedMessage("SlenderMod_OnReceiveConfigSync", clientId, stream);
             }
             catch (System.Exception e)
             {
@@ -401,14 +338,14 @@ namespace SlendermanMod
         {
             if (IsHost)
             {
-                MessageManager.RegisterNamedMessageHandler("SlendermanMod_OnRequestConfigSync", OnRequestSync);
+                MessageManager.RegisterNamedMessageHandler("SlenderMod_OnRequestConfigSync", OnRequestSync);
                 Synced = true;
 
                 return;
             }
 
             Synced = false;
-            MessageManager.RegisterNamedMessageHandler("SlendermanMod_OnReceiveConfigSync", OnReceiveSync);
+            MessageManager.RegisterNamedMessageHandler("SlenderMod_OnReceiveConfigSync", OnReceiveSync);
             RequestSync();
         }
 

@@ -58,7 +58,10 @@ As well as the Lethal Company Modding Discord for helping me with my questions.
 ## CHANGELOG 🕗
 
 Join the Lethal Company Modding Discord or [my Modding Discord](https://discord.gg/jkTY5z9RKE) for questions and to report bugs or incompatibilities.
-
+- **v1.2.5**
+     - Fix mistake in AssetBundle, so mod loads again. Im so dumb its not even funny 
+- **v1.2.4**
+     - Fix Networking
 - **v1.2.3:**
      - Fix a bug with Audio if a Slenderman is already present. @thx @Lunxara
      - Fix for slenderman randomly spawning out of bounds, and breaking. Now he should find a valid navmeshPoint.

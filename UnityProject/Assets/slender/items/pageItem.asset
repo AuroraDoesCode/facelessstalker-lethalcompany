@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
-  m_Name: page6Item
-  m_EditorClassIdentifier:
+  m_Name: pageItem
+  m_EditorClassIdentifier: 
   itemId: 0
-  itemName: Missing Poster
+  itemName: Page
   spawnPositionTypes: []
   twoHanded: 0
   twoHandedAnimation: 0
+  disableHandsOnWall: 0
   canBeGrabbedBeforeGameStart: 0
+  disallowUtilitySlot: 0
   weight: 1.01
   itemIsTrigger: 0
   holdButtonUse: 0
@@ -29,15 +31,16 @@ MonoBehaviour:
   highestSalePercentage: 0
   maxValue: 270
   minValue: 180
-  spawnPrefab: {fileID: 1709254077376921, guid: 7453697cb712f0741bc3efeb301dc0ad, type: 2}
+  spawnPrefab: {fileID: 1709254077376921, guid: 2a377ed2c12d5e6469ab04d55d3ec1fb,
+    type: 3}
   requiresBattery: 0
   batteryUsage: 0
   automaticallySetUsingPower: 0
   itemIcon: {fileID: 21300000, guid: 7731fc0a29091f540a0f2e06bd2d91a1, type: 2}
-  grabAnim:
-  useAnim:
-  pocketAnim:
-  throwAnim:
+  grabAnim: 
+  useAnim: 
+  pocketAnim: 
+  throwAnim: 
   grabAnimationTime: 0
   grabSFX: {fileID: 8300000, guid: 7694ca98bf7f96947b3b539c4a35de7d, type: 3}
   dropSFX: {fileID: 8300000, guid: 7694ca98bf7f96947b3b539c4a35de7d, type: 3}
@@ -58,6 +61,15 @@ MonoBehaviour:
   positionOffset: {x: 0.15, y: 0.085, z: -0.1}
   meshOffset: 0
   meshVariants: []
-  materialVariants: []
+  materialVariants:
+  - {fileID: 2100000, guid: f82ee67c8513cc54ebad80bf0d64573a, type: 2}
+  - {fileID: 2100000, guid: 799acc4bfb4ce444384c6ee89acf5473, type: 2}
+  - {fileID: 2100000, guid: fdbb3d310e426d54dbdb0845e98c44a6, type: 2}
+  - {fileID: 2100000, guid: f89432cf8ee01ba44adb6a7ca9560aa4, type: 2}
+  - {fileID: 2100000, guid: 9125c52d0f0f84a4a9a958e82796fcb8, type: 2}
+  - {fileID: 2100000, guid: a2cfbb086f1d9f14bb4d7c24e36a8e8c, type: 2}
+  - {fileID: 2100000, guid: 1095ae53cc000224e80f78fc2eff4ff3, type: 2}
+  - {fileID: 2100000, guid: 388a53e1f6ffadc4aab8ba164b264f99, type: 2}
+  clinkAudios: []
   usableInSpecialAnimations: 0
   canBeInspected: 1
